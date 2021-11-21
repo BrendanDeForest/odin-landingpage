@@ -1,32 +1,46 @@
-* {
+/* Removes the body's default css to allow background color to reach edge of window */
+* { 
     margin: 0;
     padding: 0;
   }
 
+/* Sets background to Dark Blue */
 #container {
     background: #1F2937;
 }
 
+/* Sets height of hero */
 #hero {
     min-height: 350px;
 }
 
-#nav-bar {
+/* Turns header into flexbox and other styling effects */
+#header-bar {
     display: flex;
     min-height: 50px;
     font-size: 18px;
 }
-#nav-bar div {
+
+#header-bar div {
     flex: 1;
+}
+
+#link-container {
+    display: flex;
+}
+
+#header-bar {
     padding: 10px;
 }
 
-#nav-bar .links {
+#header-bar .links {
+    flex: 1;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#nav-bar #logo {
+#header-bar #logo {
     font-size: 24px;
     color: #F9FAF8;
+    text-align: center;
 }
