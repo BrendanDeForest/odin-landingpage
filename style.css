@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#container {
+    background: #1F2937;
+}
+
+#hero {
+    min-height: 350px;
+}
+
+#nav-bar {
+    display: flex;
+    min-height: 50px;
+    font-size: 18px;
+}
+#nav-bar div {
+    flex: 1;
+    padding: 10px;
+}
+
+#nav-bar .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#nav-bar #logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
