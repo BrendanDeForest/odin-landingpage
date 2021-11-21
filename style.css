@@ -10,8 +10,9 @@
 }
 
 /* Sets height of hero */
-#hero {
-    min-height: 350px;
+#container > div {
+    min-height: 300px;
+    padding: 0 10%;
 }
 
 /* Turns header into flexbox and other styling effects */
@@ -42,5 +43,50 @@
 #header-bar #logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+#hero {
+    display: flex;
+}
+#hero h1 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #f9FAF8;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#section2 {
+    background: #fff;
+}
+
+#section3 {
+    background: #E5E7EB;
+}
+
+#section4 {
+    background: #fff;
+}
+
+footer {
+    color: #fff;
     text-align: center;
+    padding: 30px;
+    font-size: 14px;
 }
