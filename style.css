@@ -17,25 +17,19 @@
 
 /* Turns header into flexbox and other styling effects */
 #header-bar {
+    padding: 10px;
     display: flex;
     min-height: 50px;
     font-size: 18px;
 }
 
-#header-bar div {
-    flex: 1;
-}
-
 #link-container {
     display: flex;
-}
-
-#header-bar {
-    padding: 10px;
+    flex: 1;
+    justify-content: space-between;
 }
 
 #header-bar .links {
-    flex: 1;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -43,6 +37,7 @@
 #header-bar #logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex: 2;
 }
 
 #hero {
