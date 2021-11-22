@@ -68,8 +68,10 @@ Hero Section
     color: #fff;
     background: #3882F6;
     padding: 5px 20px;
-    border-radius: 5%;
+    border-radius: 5px;
     border: none;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 /* ---------------------
@@ -102,6 +104,11 @@ Section 2  Image Bar
     border: solid 2px;
     border-color: #3882F6;
     border-radius: 5%;
+}
+
+.img-bar p {
+    max-width: 150px;
+    margin: 0 auto;
 }
 
 /* ---------------------
