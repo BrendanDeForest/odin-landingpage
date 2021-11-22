@@ -9,12 +9,6 @@
     background: #1F2937;
 }
 
-/* Sets height of hero */
-#container > div {
-    min-height: 300px;
-    padding: 0 10%;
-}
-
 /* Turns header into flexbox and other styling effects */
 #header-bar {
     padding: 10px;
@@ -40,9 +34,16 @@
     flex: 2;
 }
 
+
+/* ----------------------
+Hero Section
+---------------------- */
+
 #hero {
+    padding: 5% 10%;
     display: flex;
 }
+
 #hero h1 {
     font-size: 48px;
     font-style: extra-bold;
@@ -58,25 +59,82 @@
     flex: 1;
 }
 
+.hero-section img {
+    display:block;
+    margin:auto;
+}
 
+#hero button {
+    color: #fff;
+    background: #3882F6;
+    padding: 5px 20px;
+    border-radius: 5%;
+    border: none;
+}
 
-
-
-
-
-
-
+/* ---------------------
+Section 2  Image Bar
+---------------------*/
 
 #section2 {
     background: #fff;
+    text-align: center;
+    padding: 5% 10%;
 }
+
+#section2 h4 {
+    padding: 25px 0px;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+}
+
+.img-bar {
+    display: flex;
+}
+
+.img-bar div {
+    flex: 1;
+    color: #555;
+}
+
+.img-bar img {
+    border: solid 2px;
+    border-color: #3882F6;
+    border-radius: 5%;
+}
+
+/* ---------------------
+Section 3  Quote
+---------------------*/
 
 #section3 {
     background: #E5E7EB;
+    padding: 5% 10%;
 }
+
+#section3 .quote {
+    margin: 0 auto;
+    max-width: 75%;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+#section3 .credit {
+    margin: 0 auto;
+    text-align: right;
+    max-width: 75%;
+    font-weight: bold;
+}
+
+/* ---------------------
+Section 4  Call to Action
+---------------------*/
 
 #section4 {
     background: #fff;
+    padding: 5% 10%;
 }
 
 footer {
