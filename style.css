@@ -2,6 +2,7 @@
 * { 
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', arial;
   }
 
 /* Sets background to Dark Blue */
@@ -103,6 +104,9 @@ Section 2  Image Bar
     border: solid 2px;
     border-color: #3882F6;
     border-radius: 5%;
+    object-fit: cover;
+    width: 175px;
+    height: 175px;
 }
 
 .img-bar p {
